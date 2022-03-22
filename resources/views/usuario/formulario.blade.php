@@ -28,4 +28,4 @@
 
 <input class="btn btn-success" type="submit" value="{{$modo}} usuario">
 
-<a class="btn btn-primary" href="{{url('usuario/')}}">Volver a la lista de usuarios</a>
+<a class="btn btn-success" href="{{url('usuario/')}}">Volver a la lista de usuarios</a>

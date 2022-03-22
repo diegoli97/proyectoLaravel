@@ -17,13 +17,7 @@ use App\Http\Controllers\UsuarioController;
 Route::get('/', function () {
     return view('auth.login');
 });
-/*
-Route::get('/usuario', function () {
-    return view('usuario.index');
-});
 
-Route::get('/usuario/insertar', [UsuarioController::class,'create']);
-*/
 
 Route::resource('usuario',UsuarioController::class);
 
